@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Колпашевский рыбозавод — рыба с характером</title>
+  <meta name="description" content="Колпашевский рыбозавод. Рыба, которую хочется поставить на стол. Ассортимент, акции и контакты магазина.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <span class="brand-mark">🐟</span>
+      <span><b>КОЛПАШЕВСКИЙ</b><small>РЫБОЗАВОД</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Открыть меню">☰</button>
+    <nav>
+      <a href="#catalog">Ассортимент</a>
+      <a href="#promos">Акции</a>
+      <a href="#about">О нас</a>
+      <a href="#contacts">Магазин</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">С 1996 года</p>
+      <h1>Рыба,<br><em>которую хочется</em><br>поставить на стол</h1>
+      <p class="hero-text">Копчёная, вяленая, слабосолёная рыба, салаты и закуски от Колпашевского рыбозавода.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#catalog">Смотреть ассортимент</a>
+        <a class="btn btn-ghost" href="#contacts">Найти магазин</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust">
+    <div class="container trust-grid">
+      <div><strong>30+</strong><span>лет работы</span></div>
+      <div><strong>100+</strong><span>товаров</span></div>
+      <div><strong>10%</strong><span>скидка по вторникам</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="catalog">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Наш ассортимент</p>
+          <h2>Выбирайте свою рыбу</h2>
+        </div>
+        <p>Цены на сайте можно обновлять без изменения структуры каталога.</p>
+      </div>
+
+      <div class="filters" role="tablist">
+        <button class="filter active" data-category="all">Всё</button>
+        <button class="filter" data-category="hk">Холодного копчения</button>
+        <button class="filter" data-category="vial">Вяленая</button>
+        <button class="filter" data-category="salt">Слабосолёная</button>
+        <button class="filter" data-category="snack">Салаты и снэки</button>
+      </div>
+
+      <div class="products" id="products"></div>
+    </div>
+  </section>
+
+  <section class="promo-section" id="promos">
+    <div class="container">
+      <div class="section-head light">
+        <div>
+          <p class="eyebrow">Сейчас в магазине</p>
+          <h2>Акции</h2>
+        </div>
+        <p>Следите за новыми предложениями и успевайте попробовать любимые продукты выгоднее.</p>
+      </div>
+      <div class="promo-grid">
+        <article class="promo-card featured">
+          <div>
+            <span class="badge">Каждый вторник</span>
+            <h3>−10% на всю готовую рыбу</h3>
+            <p>Без исключений. Просто приходите в магазин во вторник.</p>
+          </div>
+          <span class="promo-fish">🐟</span>
+        </article>
+        <article class="promo-card">
+          <span class="badge">До 30.09</span>
+          <h3>Сёмга бутербродная</h3>
+          <p class="old-price">3 000 ₽</p>
+          <strong>2 850 ₽</strong>
+          <small>ведро 1,5 кг</small>
+        </article>
+        <article class="promo-card">
+          <span class="badge">До 30.09</span>
+          <h3>Кальмар в масле</h3>
+          <p>Скидка 5%</p>
+          <strong>1 520 ₽*</strong>
+          <small>ведро 1 кг · *пример расчёта от 1 600 ₽</small>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="story section" id="about">
+    <div class="container story-grid">
+      <div class="story-image">
+        <div class="image-placeholder">КОЛПАШЕВСКИЙ<br>РЫБОЗАВОД</div>
+      </div>
+      <div>
+        <p class="eyebrow">Наша история</p>
+        <h2>Рыба с 1996 года</h2>
+        <p class="lead">Колпашевский рыбозавод работает с 1996 года и знает главное: хорошей рыбе не нужны лишние слова.</p>
+        <p>Мы собираем ассортимент для тех, кто любит настоящую рыбу: от привычной скумбрии до красной рыбы, закусок и готовых салатов.</p>
+        <div class="quote">«Выбираем то, что сами хотели бы поставить на свой стол»</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reviews">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Что говорят покупатели</p>
+          <h2>Отзывы</h2>
+        </div>
+      </div>
+      <div class="review-grid">
+        <article><div class="stars">★★★★★</div><p>«Всегда можно найти что-нибудь вкусное к столу. Особенно люблю копчёную рыбу.»</p><b>Покупатель</b></article>
+        <article><div class="stars">★★★★★</div><p>«Хороший выбор, часто захожу за рыбой домой и на праздник.»</p><b>Покупатель</b></article>
+        <article><div class="stars">★★★★★</div><p>«Нравится, что ассортимент большой и постоянно появляются интересные позиции.»</p><b>Покупатель</b></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <div class="container contacts-grid">
+      <div>
+        <p class="eyebrow">Заходите в гости</p>
+        <h2>Наш магазин</h2>
+        <div class="contact-list">
+          <div><span>📍</span><p><b>Адрес</b><br>Добавьте адрес магазина</p></div>
+          <div><span>🕐</span><p><b>Режим работы</b><br>Ежедневно · уточняется</p></div>
+          <div><span>☎</span><p><b>Телефон</b><br>Добавьте номер телефона</p></div>
+        </div>
+        <a class="btn btn-primary" href="#" id="routeBtn">Построить маршрут</a>
+      </div>
+      <div class="map-placeholder">
+        <div class="map-pin">📍</div>
+        <b>Здесь будет карта</b>
+        <span>Вставьте ссылку на Яндекс Карты или 2ГИС</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div class="brand">
+      <span class="brand-mark">🐟</span>
+      <span><b>КОЛПАШЕВСКИЙ</b><small>РЫБОЗАВОД</small></span>
+    </div>
+    <p>© 1996–2026 Колпашевский рыбозавод</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
